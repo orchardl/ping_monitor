@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  ping_monitor:
+    build: .
+    volumes:
+      - .\logs:/logs
+    container_name: ping_monitor_container
